@@ -40,7 +40,7 @@ public class TrxBITSO {
 					for( Iterator<TablaTRX> iterator = tabla.iterator(); iterator.hasNext(); ) {
 						TablaTRX tablaTRX = ( TablaTRX ) iterator.next();
 						Struct stc = OC.createStruct( "MDRG.TY_OBJ_TNXBITSO", new Object[]{ tablaTRX.getTid(),
-								tablaTRX.getMaker_side() ,
+								tablaTRX.getMaker_side()  ,
 								tablaTRX.getCreated_at() ,
 								tablaTRX.getAmount() ,
 								tablaTRX.getBook(),

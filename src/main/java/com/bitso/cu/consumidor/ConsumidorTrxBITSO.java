@@ -61,7 +61,7 @@ public class ConsumidorTrxBITSO {
 	        } );
 	    
 	    MWBITSO obj = WS.getBody();
-	    List<TablaTRX> Grid = obj.getPayload() ;
+	    List< TablaTRX > Grid = obj.getPayload() ;
 	    
 	    TrxBITSO B = new TrxBITSO() ;
 	    B.GuardaTrxBITSO( Grid );
